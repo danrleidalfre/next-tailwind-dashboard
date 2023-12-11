@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 export interface TabProps {
   value: string
   title: string
-  isSelected?: boolean
+  isSelected: boolean
 }
 
 export function Tab({ value, title, isSelected = false }: TabProps) {

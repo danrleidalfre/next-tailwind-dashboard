@@ -1,6 +1,6 @@
 'use client'
 import * as TabsRadix from '@radix-ui/react-tabs'
-import { Tab } from '@/components/Tabs/Tab'
+import { Tab } from '@/components/Main/Tabs/Tab'
 import { useState } from 'react'
 
 export function Tabs() {
