@@ -1,5 +1,6 @@
 import * as Input from '@/components/Input'
 import { Mail, UploadCloud, User } from 'lucide-react'
+import { Select } from '@/components/Select'
 
 export function Form() {
   return (
@@ -99,9 +100,7 @@ export function Form() {
           <label htmlFor="role" className="text-sm font-medium text-zinc-700">
             Role
           </label>
-          <Input.Root>
-            <Input.Control id="role" />
-          </Input.Root>
+          <Select />
         </div>
       </form>
     </div>
